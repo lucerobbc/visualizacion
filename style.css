@@ -1,0 +1,20 @@
+
+.SECCION1_mainDiv
+{
+    border: 1px solid lightgrey;
+}
+
+
+
+.SECCION1_mainDiv h5 , .SECCION1_mainDiv p
+{
+margin: 20px;
+}
+
+
+.fig {
+    background-color: rgb(156, 196, 227);
+    border: 2px solid #777;
+}
+
+

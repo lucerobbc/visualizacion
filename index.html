@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Visualizacion de Datos con D3
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999; background-color:rgb(17, 21, 27)">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">VISUALIZACIÓN DE DATOS CON D3</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#SECCION1">GRAFICA 1</a></li>
+        <li><a href="#SECCION2">GRAFICA 2</a></li>
+        <li><a href="#SECCION3">GRAFICA 3</a></li>
+        <li><a href="#SECCION4">SECCION4</a></li>
+      </ul>
+    </div>
+
+</nav>
+<div class="container">
+	<center>
+	<h2 class="page-header" id="SECCION1">SCATTER PLOT</h2>
+       <h4 class="text-capitalize"><kbd>SALARIO VS AÑOS DE ESTUDIO</kbd></h4>
+	   	<hr>
+		<div id="graf"> 
+			
+		</div>
+
+		<h5 class="text-success text-capitalize" >AÑOS DE ESTUDIO</h5>
+
+			<p class="text-muted" >FUENTE: INEGI 2020</p>
+	</center>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.0/d3.min.js" 
+	 integrity="sha512-jXsLjbg/Pr8F5U2evjFaEci7mImlUix865lbvnNmp5TzS86+VTTFVDz7FFTS6VHdhSn7UJ4tjZdvpp0GgT0fZA=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<script src="main.js"></script>
+
+    </body>
+</html>
